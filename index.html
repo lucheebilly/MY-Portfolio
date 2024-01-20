@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+    <title>luchee</title>
+    
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"> Luchee's Tech World</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#CONTACT">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Web developer</p>
+                <h1>Hi, I'm <SPan>Luchee</SPan> <br> fron Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------About---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="jiggy.jpeg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>I believe great things can be built and archieved through technology.  i never knew about the process until 2022 and i started learning till date.
+                        Now i love working on web dev projects and always looking for interesting projects and peopleto collabrate with.
+                    </p>
+                    <div class="tab-titles">
+                      <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                      <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                       <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-content active-tab" id="skills">
+                        <!-- Content for the 'Skills' tab -->
+                        <ul>
+                            <li><span>UI/UX</span><BR></BR>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Andriod/ios apps</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-content" id="experience">
+                        <!-- Content for the 'Skills' tab -->
+                        <ul>
+                            <li><span>2015 - 2016</span><BR></BR>app design</li>
+                            <li><span>home skills</span><br>house kid</li>
+                            <li><span>halla</span><br>jsdkdkdk</li>
+                        </ul>
+                    </div>
+
+                        
+                    
+                     <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>electrical engineering</span><BR></BR>windgage</li>
+                            <li><span>joy</span><br>dog</li>
+                            <li><span>game</span><br>house</li>
+                        </ul>
+                     </div>
+                       
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <!-- ------Services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>My Approach to web Design is to create a website that strengtens your company while ensuring the ease of use and simplicity for your visitors.</p>
+                     <a href="#">Learn more</a>                
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>SEO</h2>
+                        <p>(Search Engine Optimization) <br>
+                        SEO is the pratice of improving and promoting a website in order to increase the number of visitors</p>
+                         <a href="#">Learn more</a>                
+                        </div>
+                        <!-- <div>
+                            <i class="fab fa-app-store"></i>
+                            <h2>App Design</h2>
+                            <p>I create application software for companies and individual</p>
+                             <a href="#">Learn more</a>                
+                            </div> -->
+        
+    
+
+            </div>
+
+        </div>
+    </div>
+    <!-- -----------portfolilo----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pick.jpg" >
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                        <p>The app connects ou to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <h1><a href="#">+</a></h1>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="jiggy.jpeg" >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects ou to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <h1><a href="#">+</a></h1>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="jam.jpeg" >
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>The app connects ou to the talented people around the world.
+                            Then .
+                        </p>
+                        <h1><a href="#">+</a></h1>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ......................contact..................... -->
+    <div id="CONTACT">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="asub-tittle">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> contact@paulnwabueze282@</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 08058872170</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download</a>
+                </div>
+
+
+                <div class="contact-right"></div>
+
+                <form action="https:api.web3forms.com/submit"    method="POST">
+                    <input type="hidden" name="access_key" value="db536d4d-de0d-4232-b743-26e53ac7af81">
+                    
+                                        <input type="text" name="Name" placeholder="Your Name" required>
+                    
+                                        <input type="text" name="Email" placeholder="Your Email" required>
+                    
+                                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    
+                                        <button type="submit" class="btn btn2">Submit</button>
+                    
+                                    </form>
+                    
+                <span id="msg"></span>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright luchee <i class="fa-solid fa-heart"></i></p>
+        </div>    650
+    </div>
+
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+<script src="index.js"></script>
+<script src="https://kit.fontawesome.com/f886b85b53.js" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
